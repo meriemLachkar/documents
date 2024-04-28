@@ -1,0 +1,59 @@
+.titre {
+    border-bottom: 2px solid #000;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.table th {
+    text-align: center;
+}
+#custom-navbar {
+    position: relative;
+    height: 200px;
+}
+
+.navbar-left,
+.navbar-right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+}
+
+#left-bg {
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url('blue1.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#right-bg {
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-image: url('img1.png');
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+#title {
+    color: rgb(0, 0, 165);
+    font-size: large;
+    text-align: center;
+}
+
+
+
+
+
